@@ -2,8 +2,15 @@ public enum Week {
 
 
 
-    ДУЙШОМБУ("Duishombu kunu Java okuim"),
-    ШЕЙШЕМБИ("praktika lesson Java");
+    MONDAY("Duishombu kunu Java okuim"),
+    TUESDAY("Sheyshembi kunu Practic lesson Java"),
+    WEDNESDAY("Sharshembi kunu Technical lesson java"),
+    THURSDAY("Beyshembi kunu practical lesson"),
+    FRIDAY("juma kunu technical lesson bolot"),
+    SATURDAY("Ishembi kunu sabak jok"),
+    SUNDAY("Jekshembi kunu dem alysh");
+
+
 
     private String lessons;
 
@@ -21,9 +28,9 @@ public enum Week {
 
     @Override
     public String toString() {
-        return "Week{" +
-                "lessons='" + lessons + '\'' +
-                '}'+super.toString();
+        return " " +
+                " " + lessons + '\'' +
+                '.';
     }
 }
-}
+
